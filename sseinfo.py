@@ -22,8 +22,8 @@ headers = {
 
 #连接数据库
 connection = pymysql.connect(host='127.0.0.1',
-                             user='root',
-                             password='123456',
+                             user='user',
+                             password='password',
                              db='test1',
                              charset='utf8mb4',
                              )
