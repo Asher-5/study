@@ -1,4 +1,10 @@
 # -*- coding:utf-8 -*-
+'''
+AUTHOR    Asher
+dDATE     2018-9-11
+TECH     requests  xpath re  mysql
+'''
+
 import requests
 import random
 import json
@@ -214,7 +220,7 @@ def parse_html(html):
         print(data)
         file = json.dumps(data)
         header = {'content-type': 'application/json'}
-        post_url = 'http://192.168.8.105:46000/v1/ent/customer'
+        post_url = 'post-url'
         r = requests.post(post_url,data=file,headers=header)
         print(r)
     except Exception as e:
