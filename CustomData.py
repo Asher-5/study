@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 '''
 AUTHOR    Asher
-dDATE     2018-9-11
-TECH     requests  xpath re  mysql
+DATE     2018-9-11
+TECH     requests  xpath  python
 '''
 
 import requests
