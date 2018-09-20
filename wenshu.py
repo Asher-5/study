@@ -1,4 +1,10 @@
 # -*- coding:utf-8 -*-
+'''
+AUTHOR    Asher
+DATE     2018-9-11
+TECH     requests  xpath  python
+'''
+
 import requests
 import re
 import random
